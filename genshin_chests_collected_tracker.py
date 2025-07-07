@@ -172,6 +172,7 @@ def main():
                     return
             except Exception as e:
                 print(f"Error: {e}")
+                input("Press enter to continue...")
     except KeyboardInterrupt:
         db.finished_ops()
         print("\n")
